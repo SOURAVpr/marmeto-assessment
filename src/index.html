@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="header1">
+                <img src="../assets/Meubel House_Logos-05.png" alt="">
+                <span>Marmeto</span>
+            </div>
+            <div class="header2">
+                <div>
+                    <div>Home</div>
+                    <div>Shop</div>
+                    <div>About</div>
+                    <div>Contact</div>
+                </div>
+            </div>
+            <div class="header3">
+                <div><img src="../assets/akar-icons_search.png" alt=""></div>
+                <div><img src="../assets/akar-icons_heart.png" alt=""></div>
+                <div><img src="../assets/ant-design_shopping-cart-outlined.png" alt=""></div>
+
+
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <section class="cart_area">
+        <div class="cart_area1">
+            <div></div>
+            <div>Cart</div>
+        </div>
+        <div class="cart_area2">
+            <span>Home</span>
+            <img src="../assets/dashicons_arrow-down-alt2.png" alt="">
+            <span>Cart</span>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="cart_content">
+        <div class="cart_content_container">
+
+            <div class="cart_content1">
+                <div class="cart_top">
+                    <div class="cart_top_item" id="cart_top1">Product</div>
+                    <div class="cart_top_item" id="cart_top2">Price</div>
+                    <div class="cart_top_item" id="cart_top3">Quantity</div>
+                    <div class="cart_top_item" id="cart_top4">Subtotal</div>
+                </div>
+
+
+                <div class="cart_bottom">
+                    <div class="product_image"><img id="apiImage" src="" alt="product_image"></div>
+
+                    <div class="product_detail">
+                        <div id="sofaName">asgard sofa</div>
+                        <div id="productPrice">Rs. 250,000.00</div>
+                        <div><input type="number" value="1" min="0"></div>
+                        <div class="subtotal">Rs. 250,000.00</div>
+                    </div>
+                    <div class="delete_btn"><img src="../assets/ant-design_delete-filled.png" alt=""></div>
+                </div>
+            </div>
+
+
+
+            <div class="cart_content2">
+                <div>Cart Totals</div>
+                <div class="subtotal_container">
+                    <div>Subtotal</div>
+                    <div class="cartsubtotal">Rs 2500000</div>
+                </div>
+
+                <div class="total_container">
+                    <div>Total</div>
+                    <div class="total">Rs 250,000.00</div>
+                </div>
+
+                <button class="checkout">Check Out</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!--? Remove Modal -->
+    <div id="removeModal" class="modal">
+        <div class="modal-content">
+            <p>Are you sure you want to remove this item?</p>
+            <button id="confirmRemove">Yes</button>
+            <button id="cancelRemove">No</button>
+        </div>
+    </div>
+
+    <!--? Checkout Modal -->
+    <div id="checkoutModal" class="modal">
+        <div class="modal-content">
+            <p>Are you sure you want to proceed with checkout?</p>
+            <button id="confirmCheckout">Yes</button>
+            <button id="cancelCheckout">No</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_item1">
+                <div class="footer_item1_logo"></div>
+                <div class="footer_item1_text">
+                    <div>High Quality</div>
+                    <div>crafted from top materials</div>
+                </div>
+            </div>
+            <div class="footer_item2">
+                <div class="footer_item2_logo"></div>
+                <div class="footer_item2_text">
+                    <div>Warranty Protection</div>
+                    <div>Over 2 years</div>
+                </div>
+            </div>
+            <div class="footer_item3">
+                <div class="footer_item3_logo"></div>
+                <div class="footer_item3_text">
+                    <div>Free Shipping</div>
+                    <div>Order over 150 $</div>
+                </div>
+            </div>
+            <div class="footer_item4">
+                <div class="footer_item4_logo"></div>
+                <div class="footer_item4_text">
+                    <div>24 / 7 Support</div>
+                    <div>Dedicated support</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
