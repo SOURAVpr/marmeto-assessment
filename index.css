@@ -132,7 +132,7 @@ header>div {
     top: 100px;
     gap: 0px;
     opacity: 0px;
-    background: url(../assets/Rectangle\ 1.png);
+    background: url(./assets/Rectangle\ 1.png);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -154,7 +154,7 @@ header>div {
     top: 161px;
     left: 682px;
     gap: 0px;
-    background-image: url(../assets/Meubel\ House_Logos-05.png);
+    background-image: url(./assets/Meubel\ House_Logos-05.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -575,7 +575,7 @@ footer {
     padding: 0px 3.61px 0px 3.61px;
     gap: 0px;
     opacity: 0px;
-    background-image: url(../assets/trophy\ 1.png);
+    background-image: url(./assets/trophy\ 1.png);
 }
 
 .footer_item1_text {
@@ -626,7 +626,7 @@ footer {
     padding: 0.94px 0px 0.94px 0px;
     gap: 0px;
     opacity: 0px;
-    background: url(../assets/guarantee.png);
+    background: url(./assets/guarantee.png);
 }
 
 .footer_item2_text {
@@ -679,7 +679,7 @@ footer {
     padding: 2.01px 0px 2.01px 0px;
     gap: 0px;
     opacity: 0px;
-    background: url(../assets/shipping.png);
+    background: url(./assets/shipping.png);
 
 }
 
@@ -732,7 +732,7 @@ footer {
     padding: 0px 3.53px 0px 3.53px;
     gap: 0px;
     opacity: 0px;
-    background: url(../assets/customer-support.png);
+    background: url(./assets/customer-support.png);
 
 }
 
